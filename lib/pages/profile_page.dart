@@ -40,7 +40,7 @@ class _ProfilePageState extends State<ProfilePage> {
         padding: const EdgeInsets.all(24),
         child: Column(
           children: [
-            // Profile Picture
+           
             const CircleAvatar(
               radius: 60,
               backgroundColor: Colors.deepPurple,
@@ -53,7 +53,7 @@ class _ProfilePageState extends State<ProfilePage> {
             
             const SizedBox(height: 24),
             
-            // User Info Card
+           
             Card(
               elevation: 4,
               child: Padding(
@@ -74,12 +74,12 @@ class _ProfilePageState extends State<ProfilePage> {
             
             const SizedBox(height: 24),
             
-            // Action Buttons
+            
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
-                  // Edit profile functionality
+                  
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurple,

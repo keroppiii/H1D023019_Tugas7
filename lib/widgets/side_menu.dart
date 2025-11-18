@@ -20,7 +20,7 @@ class SideMenu extends StatelessWidget {
     return Drawer(
       child: Column(
         children: [
-          // Header
+          
           UserAccountsDrawerHeader(
             accountName: FutureBuilder(
               future: SharedPreferences.getInstance(),
@@ -57,7 +57,7 @@ class SideMenu extends StatelessWidget {
             decoration: const BoxDecoration(color: Colors.deepPurple),
           ),
 
-          // Menu Items
+          
           Expanded(
             child: ListView(
               padding: EdgeInsets.zero,

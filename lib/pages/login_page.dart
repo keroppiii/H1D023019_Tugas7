@@ -24,10 +24,10 @@ class _LoginPageState extends State<LoginPage> {
       _isLoading = true;
     });
 
-    // Simulate API call delay
+
     await Future.delayed(const Duration(seconds: 2));
 
-    // Simple validation (in real app, this would be API call)
+
     if (_emailController.text == 'fatimahnur@gmail.com' && 
         _passwordController.text == 'H1D023019') {
       await _saveUserData();
@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Header Section
+              
               const Column(
                 children: [
                   Icon(
@@ -108,7 +108,7 @@ class _LoginPageState extends State<LoginPage> {
               
               const SizedBox(height: 40),
               
-              // Login Form
+              
               Container(
                 padding: const EdgeInsets.all(24),
                 decoration: BoxDecoration(

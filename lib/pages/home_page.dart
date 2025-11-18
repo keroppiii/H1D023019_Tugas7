@@ -111,8 +111,7 @@ class _HomePageState extends State<HomePage> {
               ),
               
               const SizedBox(height: 12),
-              
-              // Stats Grid
+            
               GridView.count(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
